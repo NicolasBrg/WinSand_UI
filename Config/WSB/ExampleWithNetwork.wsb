@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Configuration Name="ExampleWithNetwork.wsb" CreatedAt="14/01/2024">
+	<VGpu>Disable</VGpu>
+	<Networking>Enable</Networking>
+	<AudioInput>Disable</AudioInput>
+	<VideoInput>Disable</VideoInput>
+	<ProtectedClient>Enable</ProtectedClient>
+	<PrinterRedirection>Disable</PrinterRedirection>
+	<ClipboardRedirection>Disable</ClipboardRedirection>
+	<MemoryInMB>2048</MemoryInMB>
+	<MappedFolders>
+		<MappedFolder>
+			<HostFolder>C:\GameSecurity\WinSand_UI\Shared</HostFolder>
+			<SandboxFolder>C:\Shared</SandboxFolder>
+			<ReadOnly>true</ReadOnly>
+		</MappedFolder>
+		<MappedFolder>
+			<HostFolder>C:\GameSecurity\WinSand_UI\Desktop</HostFolder>
+			<SandboxFolder>C:\Users\WDAGUtilityAccount\Desktop\Data</SandboxFolder>
+			<ReadOnly>true</ReadOnly>
+		</MappedFolder>
+	</MappedFolders>
+	<LogonCommand>
+		<Command>powershell -executionpolicy unrestricted -command "start powershell {-noexit -file C:/Shared/Setup.ps1}"</Command>
+	</LogonCommand>
+</Configuration>

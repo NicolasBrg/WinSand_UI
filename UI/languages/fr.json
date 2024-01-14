@@ -1,0 +1,78 @@
+{
+    "REQUEST_ERROR": "Erreur lors de l'envoi de la requête :",
+    "REQUEST_RESULT": "Réponse du serveur :",
+    "REQUEST_LANG_ERROR": "Impossible de charger la langue. Vérifiez que la langue existe bien et que le serveur est bien en cours d'exécution.",
+
+    "FEATURE_AVAILABLE_WITH_SERVER_ONLY": "Cette fonctionnalité n'est accessible que si vous utilisez la page proposée par le serveur.",
+
+    "TITLE_BROWSE_FILE": "Parcourir les fichiers...",
+    "TITLE_BROWSE_FOLDER": "Parcourir les dossiers...",
+    "TITLE_UNLOCK": "Cliquez pour déverrouiller.",
+    "TITLE_REMOVE": "Cliquez pour supprimer.",
+
+    "SECTION_ADVANCED": "Utiliser le mode avancé",
+    "SECTION_MAPPING": "Mappage des dossiers :",
+
+    "SECTION_DESCRIPTION_VGPU": "Utilise la virtualisation des GPU. Si l'option est activée, les performances seront meilleures, mais la surface d'attaque augmente.",
+    "SECTION_DESCRIPTION_NETWORKING": "",
+    "SECTION_DESCRIPTION_AUDIO": "",
+    "SECTION_DESCRIPTION_VIDEO": "",
+    "SECTION_DESCRIPTION_PROTECTED": "Des fonctionnalités comme le copier/coller ne seront plus disponibles.",
+    "SECTION_DESCRIPTION_PRINTER": "",
+    "SECTION_DESCRIPTION_CLIPBOARD": "",
+    "SECTION_DESCRIPTION_MEMORY": "Si Windows n'a pas assez de ressources pour démarrer, la taille risque d'être augmentée.",
+    "SECTION_DESCRIPTION_START_COMMAND": "",
+
+    "SECTION_DISPLAY_NAME_VGPU": "Virtualisation des GPU",
+    "SECTION_DISPLAY_NAME_NETWORKING": "Activation du réseau",
+    "SECTION_DISPLAY_NAME_AUDIO": "Autorisation de l'accès aux entrées audio",
+    "SECTION_DISPLAY_NAME_VIDEO": "Autorisation de l'accès aux entrées vidéo",
+    "SECTION_DISPLAY_NAME_PROTECTED": "Couche de sécurité supplémentaire",
+    "SECTION_DISPLAY_NAME_PRINTER": "Autorisation de l'accès aux imprimantes",
+    "SECTION_DISPLAY_NAME_CLIPBOARD": "Partage du presse-papier entre le système et la machine de test",
+    "SECTION_DISPLAY_NAME_MEMORY": "Mémoire de la machine en mégaoctets (MB)",
+    "SECTION_DISPLAY_NAME_START_COMMAND": "Commande a executer au démarrage",
+
+    "OPTION_ENABLED": "Activé",
+    "OPTION_DISABLED": "Désactivé",
+
+    "BUTTON_SAVE": "Créer la configuration Windows Sandbox !",
+    "BUTTON_STOP": "Arrêter le serveur",
+
+    "SERVER_CLOSE_SUCCESS": "Le serveur a correctement été fermé.",
+    "SERVER_CLOSE_WARNING": "Impossible de joindre le serveur.",
+
+    "HEADER_ENABLED": "#",
+    "HEADER_READ_ONLY": "#",
+    "HEADER_REAL_PATH": "Chemin sur l'Hôte",
+    "HEADER_VIRTUAL_PATH": "Chemin sur la Sandbox",
+    "HEADER_REMOVE": "#",
+
+    "TITLE_HEADER_ENABLED": "Exporter l'élément",
+    "TITLE_HEADER_READ_ONLY": "Lecture seule",
+    "TITLE_HEADER_REAL_PATH": "Chemin sur l'Hôte",
+    "TITLE_HEADER_VIRTUAL_PATH": "Chemin sur la Sandbox",
+    "TITLE_HEADER_REMOVE": "Supprimer le point de montage",
+
+    "PLACEHOLDER_REAL_PATH": "C:/chemin_exemple/",
+
+    "CHECK_ERROR_HTML_ENABLED": "Impossible de trouver l'élément HTML permettant de vérifier l'activation du mappage.",
+    "CHECK_ERROR_HTML_READ_ONLY": "Impossible de trouver l'élément HTML permettant de définir les permissions sur le mappage.",
+    "CHECK_ERROR_HTML_REAL_PATH": "Impossible de trouver l'élément HTML contenant le chemin réel du mappage.",
+    "CHECK_ERROR_HTML_VIRTUAL_PATH": "Impossible de trouver l'élément HTML contenant le chemin virtuel du mappage.",
+
+    "CHECK_ERROR_EMPTY_REAL_PATH": "Le chemin réel ne peut pas être vide.",
+
+    "CHECK_WARNING_INVALID_REAL_PATH": "Le chemin réel '$PATH' semble être invalide. Cela pourrait causer des problèmes.",
+    "CHECK_WARNING_INVALID_VIRTUAL_PATH": "Le chemin virtuel '$PATH' semble être invalide. Cela pourrait causer des problèmes.",
+    "CHECK_WARNING_MISMATCH_TYPE": "Les chemins réels et virtuels semblent avoir un type différent ou invalide. Cela pourrait causer des problèmes.",
+
+    "CHECK_WARNING_NOT_CHECKED": "Une règle n'a pas été sélectionnée, elle va donc être ignorée",
+
+    "CHECK_INFO_IGNORED": "Tous les chemins n'ont pas été ajoutés ; $IGNORED ont été ignorés$MORE_THAN_ONE$IF_ERROR",
+    "CHECK_INFO_IGNORED_IF_ERROR": " à cause de $ERROR erreur$MORE_THAN_ONE.",
+
+    "CHECK_WARNING_FILE_NAME": "Le fichier de configuration ne peut pas avoir le nom '$NAME', la valeur par défaut a été restaurée.",
+
+    "CHECK_SUCCESS": "Le fichier a été exporté avec succès."
+}

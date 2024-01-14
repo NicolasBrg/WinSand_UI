@@ -1,0 +1,78 @@
+{
+    "REQUEST_ERROR": "Error al enviar la solicitud:",
+    "REQUEST_RESULT": "Respuesta del servidor:",
+    "REQUEST_LANG_ERROR": "No se puede cargar el idioma. Verifique que el idioma exista y que el servidor esté en ejecución correctamente.",
+
+    "FEATURE_AVAILABLE_WITH_SERVER_ONLY": "Esta característica solo está accesible si utiliza la página proporcionada por el servidor.",
+
+    "TITLE_BROWSE_FILE": "Explorar archivos...",
+    "TITLE_BROWSE_FOLDER": "Explorar carpetas...",
+    "TITLE_UNLOCK": "Haga clic para desbloquear.",
+    "TITLE_REMOVE": "Haga clic para eliminar.",
+
+    "SECTION_ADVANCED": "Usar modo avanzado",
+    "SECTION_MAPPING": "Mapeo de carpetas:",
+
+    "SECTION_DESCRIPTION_VGPU": "Utiliza la virtualización de GPU. Si la opción está activa, el rendimiento será mejor, pero la superficie de ataque aumenta.",
+    "SECTION_DESCRIPTION_NETWORKING": "",
+    "SECTION_DESCRIPTION_AUDIO": "",
+    "SECTION_DESCRIPTION_VIDEO": "",
+    "SECTION_DESCRIPTION_PROTECTED": "Funciones como copiar/pegar ya no estarán disponibles.",
+    "SECTION_DESCRIPTION_PRINTER": "",
+    "SECTION_DESCRIPTION_CLIPBOARD": "",
+    "SECTION_DESCRIPTION_MEMORY": "Si Windows carece de recursos para iniciar, el tamaño puede aumentar.",
+    "SECTION_DESCRIPTION_START_COMMAND": "",
+
+    "SECTION_DISPLAY_NAME_VGPU": "Virtualización de GPU",
+    "SECTION_DISPLAY_NAME_NETWORKING": "Activación de red",
+    "SECTION_DISPLAY_NAME_AUDIO": "Permiso para acceder a la entrada de audio",
+    "SECTION_DISPLAY_NAME_VIDEO": "Permiso para acceder a la entrada de video",
+    "SECTION_DISPLAY_NAME_PROTECTED": "Capa de seguridad adicional",
+    "SECTION_DISPLAY_NAME_PRINTER": "Permiso para acceder a impresoras",
+    "SECTION_DISPLAY_NAME_CLIPBOARD": "Compartir portapapeles entre el sistema y la máquina de prueba",
+    "SECTION_DISPLAY_NAME_MEMORY": "Memoria de la máquina en megabytes (MB)",
+    "SECTION_DISPLAY_NAME_START_COMMAND": "Comando a ejecutar al inicio",
+
+    "OPTION_ENABLED": "Habilitado",
+    "OPTION_DISABLED": "Deshabilitado",
+
+    "BUTTON_SAVE": "¡Crear configuración de Windows Sandbox!",
+    "BUTTON_STOP": "Detener el servidor",
+
+    "SERVER_CLOSE_SUCCESS": "El servidor se ha cerrado correctamente.",
+    "SERVER_CLOSE_WARNING": "No se puede acceder al servidor.",
+
+    "HEADER_ENABLED": "#",
+    "HEADER_READ_ONLY": "#",
+    "HEADER_REAL_PATH": "Ruta en el host",
+    "HEADER_VIRTUAL_PATH": "Ruta en la Sandbox",
+    "HEADER_REMOVE": "#",
+
+    "TITLE_HEADER_ENABLED": "Exportar elemento",
+    "TITLE_HEADER_READ_ONLY": "Solo lectura",
+    "TITLE_HEADER_REAL_PATH": "Ruta en el host",
+    "TITLE_HEADER_VIRTUAL_PATH": "Ruta en la Sandbox",
+    "TITLE_HEADER_REMOVE": "Eliminar punto de montaje",
+
+    "PLACEHOLDER_REAL_PATH": "C:/ejemplo_ruta/",
+
+    "CHECK_ERROR_HTML_ENABLED": "No se puede encontrar el elemento HTML para verificar la activación del mapeo.",
+    "CHECK_ERROR_HTML_READ_ONLY": "No se puede encontrar el elemento HTML para establecer permisos en el mapeo.",
+    "CHECK_ERROR_HTML_REAL_PATH": "No se puede encontrar el elemento HTML que contiene la ruta real del mapeo.",
+    "CHECK_ERROR_HTML_VIRTUAL_PATH": "No se puede encontrar el elemento HTML que contiene la ruta virtual del mapeo.",
+
+    "CHECK_ERROR_EMPTY_REAL_PATH": "La ruta real no puede estar vacía.",
+
+    "CHECK_WARNING_INVALID_REAL_PATH": "La ruta real '$PATH' parece ser inválida. Esto podría causar problemas.",
+    "CHECK_WARNING_INVALID_VIRTUAL_PATH": "La ruta virtual '$PATH' parece ser inválida. Esto podría causar problemas.",
+    "CHECK_WARNING_MISMATCH_TYPE": "Las rutas reales y virtuales parecen tener un tipo diferente o inválido. Esto podría causar problemas.",
+
+    "CHECK_WARNING_NOT_CHECKED": "No se ha seleccionado una regla, por lo que se ignorará",
+
+    "CHECK_INFO_IGNORED": "No se han agregado todas las rutas; $IGNORED se ignoraron$MORE_THAN_ONE$IF_ERROR",
+    "CHECK_INFO_IGNORED_IF_ERROR": " debido a $ERROR error$MORE_THAN_ONE.",
+
+    "CHECK_WARNING_FILE_NAME": "El archivo de configuración no puede tener el nombre '$NAME', se ha restaurado el valor predeterminado.",
+
+    "CHECK_SUCCESS": "El archivo se ha exportado correctamente."
+}

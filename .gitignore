@@ -1,0 +1,5 @@
+# Ignorer le fichier contenant les secrets
+Config/SecureEnvironnement.config
+
+# Ignorer les archives
+Desktop/Archives

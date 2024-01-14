@@ -1,0 +1,78 @@
+{
+    "REQUEST_ERROR": "Error sending the request:",
+    "REQUEST_RESULT": "Server response:",
+    "REQUEST_LANG_ERROR": "Unable to load the language. Check that the language exists and that the server is running correctly.",
+
+    "FEATURE_AVAILABLE_WITH_SERVER_ONLY": "This feature is only accessible if you use the page provided by the server.",
+
+    "TITLE_BROWSE_FILE": "Browse files...",
+    "TITLE_BROWSE_FOLDER": "Browse folders...",
+    "TITLE_UNLOCK": "Click to unlock.",
+    "TITLE_REMOVE": "Click to remove.",
+
+    "SECTION_ADVANCED": "Use advanced mode",
+    "SECTION_MAPPING": "Folder mapping:",
+
+    "SECTION_DESCRIPTION_VGPU": "Uses GPU virtualization. If the option is active, performance will be better, but the attack surface increases.",
+    "SECTION_DESCRIPTION_NETWORKING": "",
+    "SECTION_DESCRIPTION_AUDIO": "",
+    "SECTION_DESCRIPTION_VIDEO": "",
+    "SECTION_DESCRIPTION_PROTECTED": "Features like copy/paste will no longer be available.",
+    "SECTION_DESCRIPTION_PRINTER": "",
+    "SECTION_DESCRIPTION_CLIPBOARD": "",
+    "SECTION_DESCRIPTION_MEMORY": "If Windows lacks resources to start, the size may increase.",
+    "SECTION_DESCRIPTION_START_COMMAND": "",
+
+    "SECTION_DISPLAY_NAME_VGPU": "GPU Virtualization",
+    "SECTION_DISPLAY_NAME_NETWORKING": "Network Activation",
+    "SECTION_DISPLAY_NAME_AUDIO": "Permission for audio input access",
+    "SECTION_DISPLAY_NAME_VIDEO": "Permission for video input access",
+    "SECTION_DISPLAY_NAME_PROTECTED": "Additional security layer",
+    "SECTION_DISPLAY_NAME_PRINTER": "Permission for printer access",
+    "SECTION_DISPLAY_NAME_CLIPBOARD": "Clipboard sharing between system and test machine",
+    "SECTION_DISPLAY_NAME_MEMORY": "Machine memory in megabytes (MB)",
+    "SECTION_DISPLAY_NAME_START_COMMAND": "Command to run at startup",
+
+    "OPTION_ENABLED": "Enabled",
+    "OPTION_DISABLED": "Disabled",
+
+    "BUTTON_SAVE": "Create Windows Sandbox configuration!",
+    "BUTTON_STOP": "Stop the server",
+
+    "SERVER_CLOSE_SUCCESS": "The server has been successfully closed.",
+    "SERVER_CLOSE_WARNING": "Unable to reach the server.",
+
+    "HEADER_ENABLED": "#",
+    "HEADER_READ_ONLY": "#",
+    "HEADER_REAL_PATH": "Path on Host",
+    "HEADER_VIRTUAL_PATH": "Path on the Sandbox",
+    "HEADER_REMOVE": "#",
+
+    "TITLE_HEADER_ENABLED": "Export item",
+    "TITLE_HEADER_READ_ONLY": "Read-only",
+    "TITLE_HEADER_REAL_PATH": "Path on Host",
+    "TITLE_HEADER_VIRTUAL_PATH": "Path on the Sandbox",
+    "TITLE_HEADER_REMOVE": "Remove mount point",
+
+    "PLACEHOLDER_REAL_PATH": "C:/example_path/",
+
+    "CHECK_ERROR_HTML_ENABLED": "Unable to find the HTML element to check mapping activation.",
+    "CHECK_ERROR_HTML_READ_ONLY": "Unable to find the HTML element to set permissions on mapping.",
+    "CHECK_ERROR_HTML_REAL_PATH": "Unable to find the HTML element containing the real path of mapping.",
+    "CHECK_ERROR_HTML_VIRTUAL_PATH": "Unable to find the HTML element containing the virtual path of mapping.",
+
+    "CHECK_ERROR_EMPTY_REAL_PATH": "The real path cannot be empty.",
+
+    "CHECK_WARNING_INVALID_REAL_PATH": "The real path '$PATH' seems to be invalid. This could cause problems.",
+    "CHECK_WARNING_INVALID_VIRTUAL_PATH": "The virtual path '$PATH' seems to be invalid. This could cause problems.",
+    "CHECK_WARNING_MISMATCH_TYPE": "Real and virtual paths seem to have a different or invalid type. This could cause problems.",
+
+    "CHECK_WARNING_NOT_CHECKED": "A rule has not been selected, so it will be ignored",
+
+    "CHECK_INFO_IGNORED": "Not all paths have been added; $IGNORED were ignored$MORE_THAN_ONE$IF_ERROR",
+    "CHECK_INFO_IGNORED_IF_ERROR": " due to $ERROR error$MORE_THAN_ONE.",
+
+    "CHECK_WARNING_FILE_NAME": "The configuration file cannot have the name '$NAME', the default value has been restored.",
+
+    "CHECK_SUCCESS": "The file has been successfully exported."
+}
