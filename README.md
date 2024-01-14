@@ -4,10 +4,14 @@
 
 ### Configuration Utility (CreateConfiguration.bat):
 ![BatchDos script for creation configuration](./Ressources/screen_1.png)
+
 Two modes: server mode (listens on port 12345) and local mode (launches the interface in the browser).
 
 ### Startup Module (Sandbox.bat):
 ![BatchDos script for starting configuration](./Ressources/screen_2.png)
+1. Start Sandbox (Explanation below)
+2. Delete content of `./Desktop/Archives` folder (Hidden if folder is empty)
+3. Exit script
 
 ## Usage
 ### Configuration Utility (CreateConfiguration.bat)
