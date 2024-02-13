@@ -1,4 +1,4 @@
-# WinSand*UI v1.0
+# WinSand*UI v1.1
 ## Overview
 **WinSand*UI** is a utility tool designed by [NicolasBrg](https://github.com/NicolasBrg) to help with the creation of the Windows Sandbox configuration file. The project consists of two main components:
 

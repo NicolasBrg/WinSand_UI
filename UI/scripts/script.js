@@ -750,7 +750,7 @@ function BuildPage() {
     document.body.appendChild(LANG_CONTAINER);
 
     let FOOTER = document.createElement("footer");
-    FOOTER.textContent = "WinSand*UI - User Interface for Windows Sandbox configuration creation - Nicolas BERANGER - Version 1.0 - 14/01/2024";
+    FOOTER.textContent = "WinSand*UI - User Interface for Windows Sandbox configuration creation - Nicolas BERANGER - Version 1.1 - 14/01/2024";
     document.body.appendChild(FOOTER);
 }
 

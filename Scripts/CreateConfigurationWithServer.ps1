@@ -1,5 +1,5 @@
 ###############################################################################
-#                               WinSand*UI v1.0                               #
+#                               WinSand*UI v1.1                               #
 #                       Windows Sandbox Server Script                         #
 #                                                                             #
 #   Author: NicolasBrg                                                        #
