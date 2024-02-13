@@ -4,8 +4,8 @@
 
 ### Configuration Utility (CreateConfiguration.bat):
 ![BatchDos script for creation configuration](./Ressources/screen_1.png)
-1. Server mode *(listens on port **12345**, network permission may be asked)* **[Recommended]**.
-2. Local mode *(launches the interface in the browser)*.
+1. Server mode, root path **is** detected *(listens on port **12345**, network permission may be asked)* **[Recommended]**.
+2. Local mode, root path **isn't** detected *(launches the interface in the browser)*.
 3. Exit script.
 
 ### Startup Module (Sandbox.bat):

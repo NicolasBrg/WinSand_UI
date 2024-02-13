@@ -43,6 +43,14 @@ const AVAILABLE_LANGUAGE = {
     }
 }
 
+let ROOT_PATH = "C:/GameSecurity/WinSand_UI";
+
+try {
+    ROOT_PATH = new URL(window.location).searchParams.get("root").replaceAll("\\", "/").slice(0, 256); // Get root parameter if exist, only keep 256 first characters
+    if(ROOT_PATH.endsWith("/")) ROOT_PATH = ROOT_PATH.slice(0, -1);
+    console.log(`Detected root path is : ${ROOT_PATH}`);
+} catch(ignored) {}
+
 function createSVG(svgData, width = 20, height = 20) {
     var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
 
@@ -184,8 +192,8 @@ function createSliderComponent(propertyName, description = "", displayName = pro
 
 function createFileMounting() {
     let DEFAULT_OPTIONS = [
-        { host: "C:/GameSecurity/WinSand_UI/Shared", sandbox: "C:/Shared", readOnly: true },
-        { host: "C:/GameSecurity/WinSand_UI/Desktop", sandbox: "C:/Users/WDAGUtilityAccount/Desktop/Data", readOnly: true }
+        { host: `${ROOT_PATH}/Shared`, sandbox: "C:/Shared", readOnly: true },
+        { host: `${ROOT_PATH}/Desktop`, sandbox: "C:/Users/WDAGUtilityAccount/Desktop/Data", readOnly: true }
     ];
 
     let content = document.createElement("div");

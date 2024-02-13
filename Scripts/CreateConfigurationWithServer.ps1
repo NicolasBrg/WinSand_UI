@@ -16,7 +16,7 @@
 ###############################################################################
 
 Add-Type -AssemblyName System.Windows.Forms
-
+Add-Type -AssemblyName System.Web
 function OpenFileDialog {
     $fileDialog = New-Object System.Windows.Forms.OpenFileDialog
     $fileDialog.Filter = "Files ZIP, RAR, TAR (*.zip, *.rar, *.tar, *.7z)|*.zip;*.rar;*.tar;*.7z"
@@ -62,7 +62,8 @@ $listener.Prefixes.Add($serviceUrl)
 $listener.Start()
 
 Write-Host "Web server is ready : $serviceUrl"
-Start-Process -FilePath msedge -ArgumentList "--new-window $serviceUrl"
+$ROOT_PATH = [System.Web.HttpUtility]::UrlPathEncode("$PWD")
+Start-Process -FilePath msedge -ArgumentList "--new-window $serviceUrl/?root=$ROOT_PATH"
 
 try {
     while ($listener.IsListening) {
